@@ -1,0 +1,4 @@
+[book]
+title = '“Rust Concurrent Programming — From Threads to Distributed Systems"'
+authors = ["Manuel Pueyrredon"]
+language = "en"
