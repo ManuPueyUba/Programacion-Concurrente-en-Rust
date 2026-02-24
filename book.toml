@@ -1,4 +1,15 @@
 [book]
-title = '“Rust Concurrent Programming — From Threads to Distributed Systems"'
+title = "Programación Concurrente en Rust — De Threads a Sistemas Distribuidos"
 authors = ["Manuel Pueyrredon"]
-language = "en"
+language = "es"
+description = "Apuntes teóricos y prácticos de la materia Programación Concurrente (TB026) - FIUBA"
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "navy"
+git-repository-url = "https://github.com/ManuPueyUba/Rust-Concurrent-Programming-From-Threads-to-Distributed-Systems"
+edit-url-template = "https://github.com/ManuPueyUba/Rust-Concurrent-Programming-From-Threads-to-Distributed-Systems/edit/main/{path}"
+
+[output.html.fold]
+enable = true
+level = 1
