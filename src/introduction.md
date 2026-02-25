@@ -1,5 +1,3 @@
-# Introduction
-
 # Programación Concurrente en Rust  
 ## De Threads a Sistemas Distribuidos
 
@@ -128,6 +126,17 @@ Este proyecto utiliza:
    mdbook --version
     ```
 
+5. Instalar mdbook-mermaid para diagramas:
+   ```bash
+   cargo install mdbook-mermaid
+   mdbook-mermaid --version
+    ```
+
+6. Instalar mdbook-mermaid:
+   ```bash
+   mdbook-mermaid install
+    ```
+
 ## Ejecucion del proyecto
 1. Clonar el repositorio:
    ```bash
@@ -137,6 +146,7 @@ Este proyecto utiliza:
    ```bash
     cd Programacion-Concurrente-en-Rust
     ```
+
 3. Ejecutar en modo desarrollo
    ```bash
    mdbook serve

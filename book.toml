@@ -4,12 +4,25 @@ authors = ["Manuel Pueyrredon"]
 language = "es"
 description = "Apuntes teóricos y prácticos de la materia Programación Concurrente (TB026) - FIUBA"
 
+[preprocessor.mermaid]
+command = "mdbook-mermaid"
+
 [output.html]
 default-theme = "light"
 preferred-dark-theme = "navy"
 git-repository-url = "https://github.com/ManuPueyUba/Rust-Concurrent-Programming-From-Threads-to-Distributed-Systems"
 edit-url-template = "https://github.com/ManuPueyUba/Rust-Concurrent-Programming-From-Threads-to-Distributed-Systems/edit/main/{path}"
+additional-js = ["mermaid.min.js", "mermaid-init.js"]
 
 [output.html.fold]
 enable = true
 level = 1
+
+[output.html.playground]
+editable = true
+copyable = true
+line-numbers = true
+
+# Si querés configurar el buscador, usá esto. Si no, podés borrar estas dos líneas:
+[output.html.search]
+enable = true
