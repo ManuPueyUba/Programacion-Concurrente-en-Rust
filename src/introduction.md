@@ -1,4 +1,11 @@
 # Programación Concurrente en Rust  
+
+Link a la pagina de la catedra: 
+https://concurrentes-fiuba.github.io/clases.html
+
+Ejemplos: 
+https://github.com/concurrentes-fiuba/ejemplos-concurrentes
+
 ## De Threads a Sistemas Distribuidos
 
 Este repositorio contiene mis apuntes teóricos y desarrollos prácticos realizados en el marco de la materia:
